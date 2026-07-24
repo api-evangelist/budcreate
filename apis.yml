@@ -1,19 +1,48 @@
 aid: budcreate
 name: budcreate
-description: budcreate is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: BUD (budcreate.xyz, app at joinbudapp.com) is an AI-powered 3D UGC (user-generated
+  content) interactive content platform where millions of creators build, play, and share immersive
+  experiences and games. It is a consumer mobile creation and social platform spanning avatars, 3D
+  worlds, mini-games, and AI-assisted content generation. Surfaced as a portfolio company of Qiming
+  Venture Partners and added to the API Evangelist network as a company profile. As of this
+  enrichment pass, BUD publishes no public developer program, API documentation, SDKs, or
+  discovery/.well-known surface — it is a consumer application, not an API provider.
 url: https://raw.githubusercontent.com/api-evangelist/budcreate/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.joinbudapp.com/bud-website/banner.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - qiming
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-enrichment:
+  last-run: '2026-07-18'
+  result: no-public-api
+  note: Consumer AI 3D/UGC platform; no developer portal, API, well-known, or packages found.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- AI
+- 3D
+- Gaming
+- UGC
+- Metaverse
+- Content Platform
+- Consumer App
+- Social
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +52,5 @@ maintainers:
 common:
 - type: Website
   url: https://budcreate.xyz
+- type: Application
+  url: https://www.joinbudapp.com
