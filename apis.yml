@@ -8,6 +8,17 @@ description: BUD (budcreate.xyz, app at joinbudapp.com) is an AI-powered 3D UGC 
   enrichment pass, BUD publishes no public developer program, API documentation, SDKs, or
   discovery/.well-known surface — it is a consumer application, not an API provider.
 url: https://raw.githubusercontent.com/api-evangelist/budcreate/refs/heads/main/apis.yml
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
